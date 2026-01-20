@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    
+    <nav class="py-[30px] px-[20px] flex items-center justify-between max-w-300 mx-auto">
+        <img src="./IMAGE.png" alt="">
+
+        <div class="hidden lg:flex text-[19px] gap-[50px]">
+            <p class="text-[#7EB693]">Home</p>
+            <p>About Us</p>
+            <p>Shop</p>
+            <p>Pages</p>
+            <p>Contact Us</p>
+        </div>
+
+        <div class="lg:flex items-center border rounded-4xl hidden">
+            <img class="p-2" src="./Frame.png" alt="">
+
+            <p class="pr-2">Cart 0</p>
+        </div>
+
+        <svg class="w-[30px] lg:hidden" viewBox="0 0 100 80" width="40" height="40">
+        <rect width="100" height="20"></rect>
+        <rect y="30" width="100" height="20"></rect>
+        <rect y="60" width="100" height="20"></rect>
+        </svg>
+    </nav>
 </body>
 </html>
